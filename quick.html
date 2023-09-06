@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="quick.css">
+</head>
+<body>
+    <script src="quick.js"></script>
+        <div class="section">
+            <div class="main-container">
+                <h1>👤💻</h1>
+                <h2>Exam registration system</h2>
+                <p>This is a small javascript app that allocate you to exam center randomly.</p>
+                <div class="flex">
+                    <input type="text" id="name" class="name" placeholder="Enter name">
+                    <input type="text" id="email" class="email" placeholder="Enter email">
+                </div>
+                <button id="btn" class="btn" onclick="add()">Add New user</button>
+    
+                <div class="alert" id="alert-danger">User Already exist</div>
+                <div class="alert" id="alert-success">User Added Successfully!</div>
+            </div>
+            <div class="users" id="users">  
+            </div>
+        </div>
+</body>
+</html>
